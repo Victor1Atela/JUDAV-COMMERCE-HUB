@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUDAV COMMERCE HUB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+        .sales-section {
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+        }
+        .sales-section h2 {
+            margin-top: 0;
+        }
+        .sales-metrics {
+            display: flex;
+            justify-content: space-around;
+        }
+        .metric {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JUDAV COMMERCE HUB</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sales.html">Sales</a>
+            <a href="products.html">Products</a>
+            <a href="customers.html">Customers</a>
+            <a href="reports.html">Reports</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Sales Overview</h2>
+            <p>Summary of sales performance.</p>
+        </div>
+        <div class="card">
+            <h2>Top Products</h2>
+            <p>List of top-selling products.</p>
+        </div>
+        <div class="card">
+            <h2>Customer Insights</h2>
+            <p>Information about customers.</p>
+        </div>
+    </div>
+    <div class="sales-section">
+        <h2>Sales Metrics</h2>
+        <div class="sales-metrics">
+            <div class="metric">
+                <h3>Total Sales</h3>
+                <p>$50,000</p>
+            </div>
+            <div class="metric">
+                <h3>Monthly Sales</h3>
+                <p>$10,000</p>
+            </div>
+            <div class="metric">
+                <h3>Weekly Sales</h3>
+                <p>$2,500</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
